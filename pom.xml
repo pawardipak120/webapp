@@ -17,16 +17,5 @@
   </dependencies>
   <build>
     <finalName>WebApp</finalName>
-    <plugins>
-     <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>4.0.0</version>
-        <configuration>
-          <configLocation>demo/checkstyle.xml</configLocation>
-          <headerLocation>demo/LICENSE.txt</headerLocation>
-        </configuration>
-      </plugin>
-      </plugins>
-  </build>
+      </build>
 </project>
